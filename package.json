@@ -1,26 +1,33 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
-  },
-  "engines": {
-    "node": "0.12.7"
-  },
+  "name": "twilioscreenpops",
+  "version": "0.0.1",
+  "author": "Willie Redmond <info@playusclub.com>",
+  "description": "a simple example of displaying screen pops using Node.js, Twilio Client, and FullContact API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://github.com/jonmarkgo/TwilioClientNodeScreenpops.git"
   },
+  "dependencies": {
+    "connect": "^3.4.0",
+    "ejs": "^2.3.4",
+    "express": "^3.3.8",
+    "fullcontact-api": "0.0.3",
+    "socket.io": "^1.2.0",
+    "twilio": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "tw1"
+  },
+  "bugs": {
+    "url": "https://github.com/jonmarkgo/TwilioClientNodeScreenpops/issues"
+  },
+  "homepage": "https://github.com/jonmarkgo/TwilioClientNodeScreenpops#readme",
+  "main": "app.js",
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "twilioscreenpops"
   ],
   "license": "MIT"
 }

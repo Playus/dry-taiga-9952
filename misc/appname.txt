@@ -1,0 +1,2 @@
+http://dry-taiga-9952.herokuapp.com
+https.//git.heroku.com/dry-taiga-9952.git
